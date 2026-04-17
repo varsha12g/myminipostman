@@ -30,18 +30,15 @@ export const Route = createRootRoute({
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Mini Postman" },
-      { name: "description", content: "A Mini Postman is a simple web-based version of Postman that does not require installation and has a minimal UI.
-It allows users to test APIs using HTTP methods" },
+      { name: "description", content: "A Mini Postman is a simple web-based version of Postman that does not require installation and has a minimal UI. It allows users to test APIs using HTTP methods" },
       { name: "author", content: "Lovable" },
       { property: "og:title", content: "Mini Postman" },
-      { property: "og:description", content: "A Mini Postman is a simple web-based version of Postman that does not require installation and has a minimal UI.
-It allows users to test APIs using HTTP methods" },
+      { property: "og:description", content: "A Mini Postman is a simple web-based version of Postman that does not require installation and has a minimal UI. It allows users to test APIs using HTTP methods" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Mini Postman" },
-      { name: "twitter:description", content: "A Mini Postman is a simple web-based version of Postman that does not require installation and has a minimal UI.
-It allows users to test APIs using HTTP methods" },
+      { name: "twitter:description", content: "A Mini Postman is a simple web-based version of Postman that does not require installation and has a minimal UI. It allows users to test APIs using HTTP methods" },
       { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/WYtpF9J25PYhJh9bLH1SkWsO7Bk2/social-images/social-1776402383770-ChatGPT_Image_Apr_17,_2026,_10_35_57_AM.webp" },
       { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/WYtpF9J25PYhJh9bLH1SkWsO7Bk2/social-images/social-1776402383770-ChatGPT_Image_Apr_17,_2026,_10_35_57_AM.webp" },
     ],
