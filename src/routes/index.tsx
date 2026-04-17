@@ -1,26 +1,21 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { MiniPostman } from "@/components/MiniPostman";
 
 export const Route = createFileRoute("/")({
-  component: Index,
+  head: () => ({
+    meta: [
+      { title: "My Mini Postman — Browser-based API Testing Tool" },
+      {
+        name: "description",
+        content:
+          "Test REST APIs in your browser with GET, POST, PUT, DELETE. Inspect JSON responses, headers, status codes, and response time — no install required.",
+      },
+      { property: "og:title", content: "My Mini Postman" },
+      {
+        property: "og:description",
+        content: "A minimal browser-based Postman alternative for testing APIs instantly.",
+      },
+    ],
+  }),
+  component: MiniPostman,
 });
-
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
-}
